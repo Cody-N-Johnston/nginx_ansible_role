@@ -49,7 +49,7 @@ Example Playbook
    - hosts: default
      become: yes
      roles:
-       - { role: php, php_version: '7.4', install_php_fpm: true }
+       - { role: nginx}
 ```
 
 License
